@@ -1,9 +1,6 @@
 const express = require("express");
 const app = express();
-const fs = require("fs");
 const PORT = 9000;
-
-fs.writeFile();
 
 //ejs or pug both npms can be used for views pages.
 app.set("view engine", "ejs");
